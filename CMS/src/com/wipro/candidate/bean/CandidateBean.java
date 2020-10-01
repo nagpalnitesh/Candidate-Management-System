@@ -3,7 +3,7 @@ package com.wipro.candidate.bean;
 public class CandidateBean {
 	private String Id;
 	private String name;
-	private int M1,M2,M3;
+	private int M1,M2,M3,M4;
 	private String grade,result;
 	public String getId() {
 		return Id;
@@ -40,6 +40,9 @@ public class CandidateBean {
 	}
 	public void setGrade(String grade) {
 		this.grade = grade;
+	}
+	public void setGrade(String grade) {
+		this.grade = m4;
 	}
 	public String getResult() {
 		return result;
